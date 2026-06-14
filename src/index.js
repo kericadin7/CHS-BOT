@@ -17,6 +17,7 @@ const client = new Client({
     GatewayIntentBits.Guilds,           // Required for basic guild info
     GatewayIntentBits.GuildMembers,     // Required for guildMemberAdd event & kick/ban
     GatewayIntentBits.GuildMessages,    // Required for reading messages (if needed later)
+    GatewayIntentBits.MessageContent,
   ],
 });
 
