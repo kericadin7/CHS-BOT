@@ -17,7 +17,7 @@ module.exports = {
         name:    'CHASERS TEAM Bot',
         iconURL: interaction.client.user.displayAvatarURL(),
       })
-      .setTitle('Command Reference')
+      .setTitle('Commands List')
       .setDescription(
         'A complete list of available slash commands for the **CHASERS TEAM** server.'
       )
@@ -73,7 +73,7 @@ module.exports = {
       )
 
       .setFooter({
-        text:    'Custom built for CHASERS TEAM • Maintained by the repository owner.',
+        text:    'Custom built for CHASERS TEAM • Developed by Kera',
         iconURL: interaction.guild?.iconURL({ dynamic: true }) ?? undefined,
       })
       .setTimestamp();
