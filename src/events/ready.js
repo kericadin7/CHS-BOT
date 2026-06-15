@@ -1,31 +1,29 @@
 // ============================================================
 // src/events/ready.js
-// Fires once when the bot has successfully logged in and its
-// internal cache is populated. Sets a custom activity status.
+// Fires once when the bot is fully logged in and cached.
+// Also starts all scheduled cron jobs via the scheduler utility.
 // ============================================================
 
 const { Events, ActivityType } = require('discord.js');
+const { startScheduler }       = require('../utils/scheduler');
 
 module.exports = {
-  name: Events.ClientReady, // 'ready'
-  once: true,               // Only fire this event handler ONE time
+  name: Events.ClientReady,
+  once: true,
 
   execute(client) {
     console.log(`\n✅ Bot is online! Logged in as: ${client.user.tag}`);
     console.log(`   Serving ${client.guilds.cache.size} guild(s).`);
 
-    // ── Set the bot's activity/status ────────────────────────
-    // ActivityType options: Playing, Streaming, Listening, Watching, Competing
+    // ── Set activity status ───────────────────────────────────
     client.user.setPresence({
-      activities: [
-        {
-          name: 'Mrakan YouTube Channel 🎮',
-          type: ActivityType.Watching,
-        },
-      ],
-      status: 'online', // 'online' | 'idle' | 'dnd' | 'invisible'
+      activities: [{ name: 'Mrakan YouTube Channel 🎮', type: ActivityType.Watching }],
+      status: 'online',
     });
 
-    console.log(`   Status set to: Watching "Mrakan YouTube Channel 🎮"\n`);
+    // ── Start all scheduled tasks ─────────────────────────────
+    // Called here (inside ready) so the client is guaranteed to
+    // be fully logged in before any cron jobs can fire.
+    startScheduler(client);
   },
 };

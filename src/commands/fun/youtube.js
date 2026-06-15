@@ -9,6 +9,7 @@ const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 const CHANNEL_URL  = 'https://www.youtube.com/@MRAKAN';
 const AVATAR_URL   =
   'https://yt3.googleusercontent.com/vx_bEF52bg3NeOylna7BHbvXlVM9lsfd26GlAwh5hKukmFD2TI798RADQH7bZFTqkdMyz38T=s160-c-k-c0x00ffffff-no-rj';
+const BANNER_URL = 'https://yt3.googleusercontent.com/0MgPuHTfBLogXVjDok1uq5GGXVscieIdOxODVPPiEt8HHYsNvYARbmnNBg_W4f9kPixDn4NIG6M=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj'
 
 module.exports = {
   // ── Command Definition ──────────────────────────────────────
@@ -59,7 +60,7 @@ module.exports = {
       .setThumbnail(AVATAR_URL)
 
       // Large image (banner area below the description)
-      .setImage(AVATAR_URL)
+      .setImage(BANNER_URL)
 
       // Footer with timestamp
       .setFooter({ text: 'MRXs' })
