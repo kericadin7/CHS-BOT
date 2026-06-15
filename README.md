@@ -7,6 +7,8 @@ The official, multi-purpose Discord bot built for the CHASERS TEAM server. This 
 ### ⚙️ Moderation & Admin
 * `/kick` - Kicks a user from the server.
 * `/ban` - Permanently bans a user from the server.
+* `/unban` — Lifts a ban by user ID. Requires **Ban Members** permission.',
+* `/warn`  — Issues an official warning and logs it to the database.',
 
 ### 🤖 Automation & Welcome System
 * `Welcome Embeds` - Automatically greets new members in the `#novi-chaser` channel with a custom team embed, displaying their avatar and unique member number.
@@ -17,6 +19,7 @@ The official, multi-purpose Discord bot built for the CHASERS TEAM server. This 
 * `/dice` - Rolls a standard 6-sided dice, or a custom number of sides if specified (e.g., `/dice sides:20`).
 
 ### 📢 Utility & Info
+* `/help` - List of all available commands.
 * `/ping` - Checks the bot's current response latency and API status.
 * `YouTube Embeds` - Handles custom, cleanly formatted embed layouts for team video links and announcements.
 

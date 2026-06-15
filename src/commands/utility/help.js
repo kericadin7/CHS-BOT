@@ -29,6 +29,8 @@ module.exports = {
           value: [
             '`/kick` — Removes a member from the server. Requires **Kick Members** permission.',
             '`/ban`  — Permanently bans a member from the server. Requires **Ban Members** permission.',
+            '`/unban` — Lifts a ban by user ID. Requires **Ban Members** permission.',
+            '`/warn`  — Issues an official warning and logs it to the database.',
           ].join('\n'),
           inline: false,
         },
