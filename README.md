@@ -7,21 +7,25 @@ The official, multi-purpose Discord bot built for the CHASERS TEAM server. This 
 ### ⚙️ Moderation & Admin
 * `/kick` - Kicks a user from the server.
 * `/ban` - Permanently bans a user from the server.
-* `/unban` — Lifts a ban by user ID. Requires **Ban Members** permission.',
-* `/warn`  — Issues an official warning and logs it to the database.',
+* `/unban` - Lifts a ban by user ID. Requires **Ban Members** permission.
+* `/warn` - Issues an official warning to a user and logs it to the SQLite database.
 
 ### 🤖 Automation & Welcome System
 * `Welcome Embeds` - Automatically greets new members in the `#novi-chaser` channel with a custom team embed, displaying their avatar and unique member number.
 * `Auto-Role` - Instantly assigns the **CHS FANS** role to new users as soon as they join the server.
 
-### 🎲 Fun & Mini-Games
+### 📢 Utility & Info
+* `/help` - Displays the complete list of all available commands.
+* `/ping` - Checks the bot's current response latency and API status.
+* `/avatar` - Displays a user's profile picture in full size with a direct download link.
+* `/serverinfo` - Shows detailed statistics about the server (owner, creation date, member counts).
+* `/userinfo` - Displays account creation date, server join date, and roles for a specific member.
+* `YouTube Embeds` - Handles custom, cleanly formatted embed layouts for team video links and announcements.
+
+### 🎲 Fun & Community
+* `/poll` - Creates an advanced interactive poll with automatic reaction emojis for voting.
 * `/coinflip` - Flips a coin (Heads or Tails) to settle arguments or make quick decisions.
 * `/dice` - Rolls a standard 6-sided dice, or a custom number of sides if specified (e.g., `/dice sides:20`).
-
-### 📢 Utility & Info
-* `/help` - List of all available commands.
-* `/ping` - Checks the bot's current response latency and API status.
-* `YouTube Embeds` - Handles custom, cleanly formatted embed layouts for team video links and announcements.
 
 ---
 
