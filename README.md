@@ -9,6 +9,8 @@ The official, multi-purpose Discord bot built for the CHASERS TEAM server. This 
 * `/ban` - Permanently bans a user from the server.
 * `/unban` - Lifts a ban by user ID. Requires **Ban Members** permission.
 * `/warn` - Issues an official warning to a user and logs it to the SQLite database.
+* `/unwarn` - Removes a specific warning ID or clears all warnings for a user from the database.
+* `/timeout` - Times out (mutes) a member for a specified duration (minutes, hours, days) with an optional reason.
 * `/clear` - Deletes a specific number of messages from the channel (optionally from a specific user only).
 * `/lock` - Locks the current channel so regular members cannot send messages.
 * `/unlock` - Unlocks a previously locked channel.
