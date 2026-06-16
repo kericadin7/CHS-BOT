@@ -1,3 +1,4 @@
+<img width="500" height="500" alt="logo" src="https://github.com/user-attachments/assets/039ab4fd-323a-448b-a764-17d73216e6c4" />
 # CHASERS TEAM Discord Bot
 
 The official, multi-purpose Discord bot built for the CHASERS TEAM server. This project handles moderation, server automation, utility features, and fun mini-games to keep the server active and organized. Built using `discord.js` (v14) and Node.js.
