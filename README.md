@@ -9,6 +9,10 @@ The official, multi-purpose Discord bot built for the CHASERS TEAM server. This 
 * `/ban` - Permanently bans a user from the server.
 * `/unban` - Lifts a ban by user ID. Requires **Ban Members** permission.
 * `/warn` - Issues an official warning to a user and logs it to the SQLite database.
+* `/clear` - Deletes a specific number of messages from the channel (optionally from a specific user only).
+* `/lock` - Locks the current channel so regular members cannot send messages.
+* `/unlock` - Unlocks a previously locked channel.
+* `/slowmode` - Sets or disables a message cooldown for users in the current channel.
 
 ### 🤖 Automation & Welcome System
 * `Welcome Embeds` - Automatically greets new members in the `#novi-chaser` channel with a custom team embed, displaying their avatar and unique member number.
