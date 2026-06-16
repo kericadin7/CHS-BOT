@@ -13,6 +13,7 @@ The official, multi-purpose Discord bot built for the CHASERS TEAM server. This 
 ### 🤖 Automation & Welcome System
 * `Welcome Embeds` - Automatically greets new members in the `#novi-chaser` channel with a custom team embed, displaying their avatar and unique member number.
 * `Auto-Role` - Instantly assigns the **CHS FANS** role to new users as soon as they join the server.
+* `Daily YouTube Reminder` - Automatically posts a custom, beautifully formatted promotion embed for Mrakan's YouTube channel every day at **12:00h (CEST)**
 
 ### 📢 Utility & Info
 * `/help` - Displays the complete list of all available commands.
