@@ -18,7 +18,7 @@ To function properly, perform moderation tasks, and run automation features, the
 * **Sharing:** We **never** sell, trade, or share your data with any third parties.
 
 ## 4. Data Retention & Deletion (Your Rights)
-* **Automated Removal:** Data regarding kicks/bans is handled natively through Discord. 
+* **Automated Removal:** Data regarding kicks/bans is handled natively through Discord.
 * **Manual Removal:** Moderators can clear infraction data using the `/unwarn` command.
 * **Data Erasure Requests:** If you wish to have all your stored data permanently removed from our SQLite database, please contact the repository owner or a server administrator, and your data will be deleted within 30 days.
 

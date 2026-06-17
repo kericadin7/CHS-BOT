@@ -14,7 +14,7 @@ By using the Bot, you confirm that you have read, understood, and agreed to thes
 Midnight Coding is not responsible for any damages, data losses, server disruptions, or moderation mistakes (such as accidental bans/kicks) resulting from the use or misuse of the Bot. Server administrators are solely responsible for configuring permissions properly.
 
 ## 4. Modifications to Service
-We reserve the right to modify, update, or temporarily discontinue the Bot (or any part of its features) at any time without prior notice. 
+We reserve the right to modify, update, or temporarily discontinue the Bot (or any part of its features) at any time without prior notice.
 
 ---
 *Last updated: June 2026*

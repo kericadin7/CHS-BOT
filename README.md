@@ -42,7 +42,7 @@ This is a private development project customized specifically for the CHASERS TE
 --- 
 
 ## Legal & Compliance
-To comply with Discord's Developer Policy, the official terms and data usage guidelines for this bot are fully documented below:
+To comply with Discord's Developer Policy, the official terms and data usage guidelines for this bot are fully documented below: 
 * [Terms of Service](TOS.md) — Rules and conditions for using the bot on your server.
 * [Privacy Policy](PRIVACY.md) — Detailed overview of what data we collect (SQLite logging) and how it is protected.
 
