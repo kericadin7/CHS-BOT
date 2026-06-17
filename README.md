@@ -22,12 +22,12 @@ The official, multi-purpose Discord bot built for the CHASERS TEAM server. This 
 * `Daily YouTube Reminder` - Automatically posts a custom, beautifully formatted promotion embed for Mrakan's YouTube channel every day at **12:00h (CEST)**
 
 ### 📢 Utility & Info
+* `/youtube` - Displays information about Mrakan's YouTube channel.
 * `/help` - Displays the complete list of all available commands.
 * `/ping` - Checks the bot's current response latency and API status.
 * `/avatar` - Displays a user's profile picture in full size with a direct download link.
 * `/serverinfo` - Shows detailed statistics about the server (owner, creation date, member counts).
 * `/userinfo` - Displays account creation date, server join date, and roles for a specific member.
-* `YouTube Embeds` - Handles custom, cleanly formatted embed layouts for team video links and announcements.
 
 ### 🎲 Fun & Community
 * `/poll` - Creates an advanced interactive poll with automatic reaction emojis for voting.
@@ -38,5 +38,14 @@ The official, multi-purpose Discord bot built for the CHASERS TEAM server. This 
 
 ## Project Status
 This is a private development project customized specifically for the CHASERS TEAM Discord server. The repository is public for showcase and tracking progress. 
+
+--- 
+
+## Legal & Compliance
+To comply with Discord's Developer Policy, the official terms and data usage guidelines for this bot are fully documented below:
+* [Terms of Service](TOS.md) — Rules and conditions for using the bot on your server.
+* [Privacy Policy](PRIVACY.md) — Detailed overview of what data we collect (SQLite logging) and how it is protected.
+
+---
 
 *Maintained exclusively by the repository owner.*
