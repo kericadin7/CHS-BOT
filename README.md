@@ -39,6 +39,7 @@ The official, multi-purpose Discord bot built for the CHASERS TEAM server. This 
 ## Project Status
 This is a private development project customized specifically for the CHASERS TEAM Discord server. The repository is public for showcase and tracking progress. 
 
+<<<<<<< HEAD
 --- 
 
 ## Legal & Compliance
@@ -49,3 +50,6 @@ To comply with Discord's Developer Policy, the official terms and data usage gui
 ---
 
 *Maintained exclusively by the repository owner.*
+=======
+*Maintained exclusively by the repository owner.*
+>>>>>>> 57dc734b4517758d0c86f06372f2837d260f49ce
