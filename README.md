@@ -23,6 +23,7 @@ The official, multi-purpose Discord bot built for the CHASERS TEAM server. This 
 
 ### 📢 Utility & Info
 * `/youtube` - Displays information about Mrakan's YouTube channel.
+* `/tiktok` - Displays information about Mrakan's TikTok profile.
 * `/help` - Displays the complete list of all available commands.
 * `/ping` - Checks the bot's current response latency and API status.
 * `/avatar` - Displays a user's profile picture in full size with a direct download link.
