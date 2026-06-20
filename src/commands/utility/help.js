@@ -75,6 +75,7 @@ module.exports = {
           value: [
             '`/ping`          — Checks the bot\'s WebSocket latency and API response time.',
             '`/youtube`       — Displays the official Mrakan YouTube channel card.',
+            '`/instaram`       — Displays the official Mrakan Instagram profile card.',
             '`/tiktok`        — Displays the official Mrakan TikTok profile card.',
             '`/help`          — Shows this command reference menu.',
           ].join('\n'),
