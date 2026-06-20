@@ -78,6 +78,7 @@ module.exports = {
             '`/instaram`       — Displays the official Mrakan Instagram profile card.',
             '`/tiktok`        — Displays the official Mrakan TikTok profile card.',
             '`/help`          — Shows this command reference menu.',
+            '`/suggest`       — Opens a pop-up window to submit your ideas for the server.',
           ].join('\n'),
           inline: false,
         }

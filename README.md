@@ -30,6 +30,7 @@ The official, multi-purpose Discord bot built for the CHASERS TEAM server. This 
 * `/avatar` - Displays a user's profile picture in full size with a direct download link.
 * `/serverinfo` - Shows detailed statistics about the server (owner, creation date, member counts).
 * `/userinfo` - Displays account creation date, server join date, and roles for a specific member.
+* `/suggest` - Opens an interactive modal window to submit server suggestions and feature ideas.
 
 ### 🎲 Fun & Community
 * `/poll` - Creates an advanced interactive poll with automatic reaction emojis for voting.
