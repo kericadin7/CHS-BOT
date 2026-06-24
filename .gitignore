@@ -1,3 +1,7 @@
 node_modules/
 .env
+<<<<<<< HEAD
 chs-bot.sqlite
+=======
+chs-bot.sqlite
+>>>>>>> f3b7ec3 (Updated bot token)
