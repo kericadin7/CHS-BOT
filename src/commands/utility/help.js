@@ -77,6 +77,7 @@ module.exports = {
             '`/youtube`       — Displays the official Mrakan YouTube channel card.',
             '`/instaram`       — Displays the official Mrakan Instagram profile card.',
             '`/tiktok`        — Displays the official Mrakan TikTok profile card.',
+            '`/clips`        — Displays the official @kera.clips TikTok profile card.',
             '`/help`          — Shows this command reference menu.',
             '`/suggest`       — Opens a pop-up window to submit your ideas for the server.',
           ].join('\n'),
