@@ -1,7 +1,7 @@
 {
   "name": "chs-bot",
   "version": "1.0.0",
-  "description": "A modern Discord bot using discord.js v14 with slash commands and modular structure.",
+  "description": "A custom Discord bot using discord.js v14 with slash commands, made for CHASERS Team.",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
@@ -13,7 +13,7 @@
     "bot",
     "discordjs"
   ],
-  "author": "Mrakan",
+  "author": "Adin",
   "license": "ISC",
   "dependencies": {
     "@napi-rs/canvas": "^1.0.0",
